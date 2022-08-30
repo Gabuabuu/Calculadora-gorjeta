@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+:root {
+    --background-color: lightcoral;
+    --title-color: DimGrey;
+    --header-color: Gainsboro;
+    --text-color: #000000;
+    --container-color: #F7F7F7;
+}/*Assim que se faz uma variavel no css*/
+
+body {
+    background-color: var(--background-color);
+    font-size: 15px;
+    font-family: Lato, sans-serif;
+}
+
+#container {
+    height: 520px;
+    width: 368px;
+    margin: 100px auto;
+    background:var(--container-color);
+    box-shadow: 5px 5px 2px black;
+    border-radius: 20px;
+}
+
+.title {
+    background: var(--header-color);
+    color: var(--title-color);
+    padding: 15px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: normal;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-align: center;
+}
+
+.tipsForm {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.formInput {
+    background: white;
+    width: 40px;
+    padding: 5px 5px 8px 8px;
+}
+
+.formInput:focus {
+    border: 3px solid var(--secondary-color);
+    outline: none;
+}
+
+.formSelect {
+    width: 180px;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.formSubmit {
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin: 30px auto;
+    background: var(--background-color);
+    width: 200px;
+    height: 50px;
+    font-size: 17px;
+    color: white;
+}
+
+.text {
+  color: var(--text-color)
+}
+
+#totalTip { 
+  font-size: 20px;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.ThemeBtn {
+  display: flex;
+  justify-content: center;
+  font-size: 1rem;
+}
+
+#footer {
+  text-align: center 
+}
